@@ -1,0 +1,14 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Open 01-常用的键盘事件.html",
+            "file": "d:\\WebstormProjects\\java-script-master\\JavaScript APIs 素材\\jsapis_material\\第四天\\01-常用的键盘事件.html"
+        }
+    ]
+}
