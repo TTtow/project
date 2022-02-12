@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+    <style>
+        .p1{
+            width: 300px;
+            height: 300px;
+            background-color: #0dff1d;
+        }
+        .p2 ul{
+            width: 150px;
+            height: 30px;
+            background-color: #1b6d85;
+
+        }
+    </style>
+</head>
+<body>
+<div class="p1">
+    <div class="p2">
+        <ul>
+            <li>sssssss </li>
+        </ul>
+
+    </div>
+</div>
+<div>222</div>
+<div>22</div>
+<div>2</div>
+        <script>
+            // console.log($('.p1').children().html());
+            // $('.p2').hide();
+           // $('ul li').css('color','red');
+            var sum = 0;
+            var arr = ['red','green','blue','pink']
+           $('div').each(function (i,domEle){
+              // console.log(i);
+               //console.log(domEle);
+             $(domEle).css('color',arr[i]);
+             sum +=parseInt($(domEle).text());
+           })
+            console.log(sum);
+        </script>
+</body>
+</html>
